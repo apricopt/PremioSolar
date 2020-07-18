@@ -1,0 +1,404 @@
+[02-Apr-2020 11:48:04 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[02-Apr-2020 11:48:04 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apriakoz/premiosolar.com/admin/include/connection.php on line 9
+[02-Apr-2020 11:48:04 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/apriakoz/premiosolar.com/admin/index.php on line 219
+[02-Apr-2020 11:48:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/apriakoz/premiosolar.com/admin/index.php:220
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/index.php on line 220
+[03-Apr-2020 00:02:37 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 00:02:37 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'apricopt'@'localhost' (using password: YES) in /home/apriakoz/premiosolar.com/admin/include/connection.php on line 9
+[03-Apr-2020 00:02:37 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/apriakoz/premiosolar.com/admin/index.php on line 219
+[03-Apr-2020 00:02:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/apriakoz/premiosolar.com/admin/index.php:220
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/index.php on line 220
+[03-Apr-2020 00:02:43 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'apricopt'@'localhost' (using password: YES) in /home/apriakoz/premiosolar.com/admin/include/connection.php on line 9
+[03-Apr-2020 00:02:43 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/apriakoz/premiosolar.com/admin/form_handler.php on line 43
+[03-Apr-2020 00:02:43 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/apriakoz/premiosolar.com/admin/form_handler.php on line 45
+[03-Apr-2020 00:08:51 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 00:09:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 00:09:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 00:43:27 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 00:44:42 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 01:02:10 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 01:05:15 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 01:08:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 01:08:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:08:28 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 01:08:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 01:08:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:09:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:09:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 01:09:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 01:09:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:10:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 01:10:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:12:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 01:12:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 04:26:02 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 10:36:42 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 10:36:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 10:36:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 10:37:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[03-Apr-2020 10:37:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 13:07:37 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[03-Apr-2020 13:07:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[03-Apr-2020 13:07:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[04-Apr-2020 00:51:55 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[04-Apr-2020 00:52:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[04-Apr-2020 00:52:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[05-Apr-2020 05:50:39 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[05-Apr-2020 05:50:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[05-Apr-2020 05:50:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 00:52:06 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[06-Apr-2020 00:52:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 00:52:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 00:57:01 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[06-Apr-2020 00:57:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 00:57:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:00:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:00:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:00:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:00:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:00:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:00:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:00:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:00:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:00:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:00:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:01:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:01:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:01:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:01:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:16:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:16:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:16:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:16:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:16:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:37:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:37:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:39:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:39:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:39:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 01:39:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:39:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[06-Apr-2020 01:39:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 09:59:03 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[06-Apr-2020 09:59:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[06-Apr-2020 09:59:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[07-Apr-2020 06:55:40 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[07-Apr-2020 06:55:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[07-Apr-2020 06:55:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[09-Apr-2020 15:17:34 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[10-Apr-2020 12:48:49 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[10-Apr-2020 12:48:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[10-Apr-2020 12:48:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[11-Apr-2020 02:02:16 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[11-Apr-2020 02:02:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[11-Apr-2020 02:02:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[11-Apr-2020 02:20:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[11-Apr-2020 02:20:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[11-Apr-2020 05:21:46 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[11-Apr-2020 05:21:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[11-Apr-2020 05:21:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[11-Apr-2020 12:00:27 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[11-Apr-2020 12:00:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[11-Apr-2020 12:00:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[12-Apr-2020 00:14:15 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[12-Apr-2020 00:14:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[12-Apr-2020 00:14:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[12-Apr-2020 02:55:28 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[12-Apr-2020 02:56:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[12-Apr-2020 02:56:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 02:25:38 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[13-Apr-2020 02:25:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 02:25:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[13-Apr-2020 02:26:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 02:26:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[13-Apr-2020 02:42:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 02:42:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[13-Apr-2020 11:26:32 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[13-Apr-2020 11:26:33 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[13-Apr-2020 11:26:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 11:26:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[13-Apr-2020 23:30:15 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[13-Apr-2020 23:30:16 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 33
+[13-Apr-2020 23:30:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 137
+[13-Apr-2020 23:30:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/apriakoz/premiosolar.com/admin/fetcher.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/apriakoz/premiosolar.com/admin/fetcher.php on line 192
+[15-Apr-2020 11:36:48 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[15-Apr-2020 12:02:18 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[15-Apr-2020 12:02:20 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[01-May-2020 05:08:16 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[01-May-2020 05:28:39 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[01-May-2020 06:33:03 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[06-May-2020 02:49:01 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38
+[09-May-2020 05:11:03 America/New_York] PHP Notice:  Undefined index: logintrue in /home/apriakoz/premiosolar.com/admin/index.php on line 38

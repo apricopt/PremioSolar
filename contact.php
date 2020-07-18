@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PremioSolar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+<style>
+	.contact-form{
+    background: #ffffff82;
+    /* margin-top: 10%; */
+    /* margin-bottom: 5%; */
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: green;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+	padding:5px;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+	
+	
+	
+	
+	</style>
+
+
+
+  </head>
+  <body>
+   <!-- alert here -->
+			  <?php
+			  if(isset($_GET['success'])) {
+				  echo
+			" <div class='alert alert-success alert-dismissible fade show mt-1' role='alert'>
+  			<strong>Success!</strong> Your message has been sent .You will be contacted soon!
+  				<button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+    			<span aria-hidden='true'>&times;</span>
+  				</button>
+			</div>";
+
+			  }
+			?>
+<!-- alert ends -->
+
+
+    <div class="container pt-5 pb-4">
+			<div class="row justify-content-between">
+				<div class="col-md-8 order-md-last">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<img src="images/mainlogo.png" alt="">
+						</div>
+						<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3 pt-4">
+							<form action="#" class="searchform order-lg-last">
+			          <div class="form-group d-flex">
+			            <input type="text" class="form-control pl-3" placeholder="Search">
+			            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+			          </div>
+			        </form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex">
+					<div class="social-media">
+		    		<p class="mb-0 d-flex">
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+		    		</p>
+	        </div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			<div class="container-fluid">
+			
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			  </button>
+			  <div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item "><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item "><a href="howitwork.php" class="nav-link">HOW IT WORK</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link">ABOUT</a></li>
+					<li class="nav-item"><a href="community.php" class="nav-link">RESIDENTIAL QOUTATIONS</a></li>
+				<li class="nav-item"><a href="comercial.php" class="nav-link">COMMERCIAL</a></li>
+					<!-- <li class="nav-item"><a href="gallery.php" class="nav-link">REVIEWS</a></li> -->
+					<!-- <li class="nav-item"><a href="blog.php" class="nav-link">SUPPORT</a></li> -->
+				  
+				  <!-- <li class="nav-item"><a href="about.php" class="nav-link">NEWS</a></li> -->
+				  <li class="nav-item active"><a href="contact.php" class="nav-link">Contact Us</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+		<!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/contacthead.jpg');" >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">Contact us</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact us <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+   	
+		<section class="ftco-section bg-light">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12">
+						<div class="wrapper">
+							<div class="row mb-5">
+								<div class="col-md-3">
+									<div class="dbox w-100 text-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-map-marker"></span>
+				        		</div>
+				        		<div class="text">
+					            <p><span>Address:</span> N 7th Ave, Phoenix, AZ 85007, United States</p>
+					          </div>
+				          </div>
+								</div>
+								<div class="col-md-3">
+									<div class="dbox w-100 text-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text">
+					            <p><span>Phone:</span> <a href="tel://1234567920">702 8794443</a></p>N 7th Ave, Phoenix, AZ 85007, United States
+					          </div>
+				          </div>
+								</div>
+								<div class="col-md-3">
+									<div class="dbox w-100 text-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text">
+					            <p><span>Email:</span> <a href="mailto:info@premiosolar.com">info@premiosolar.com</a></p>
+					          </div>
+				          </div>
+								</div>
+								<div class="col-md-3">
+									<div class="dbox w-100 text-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text">
+					            <p><span>Website</span> <a href="#">premiosolar.com</a></p>
+					          </div>
+				          </div>
+								</div>
+							</div>
+							
+
+							<!--  i think lower portion starts from here -->
+
+<div class="container-fluid" style="background-image:
+linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #25958063),
+url('images/seasoanl-5.jpg'); background-attachment:fixed; background-size:cover">
+
+
+<div class="container contact-form" style="">
+
+            <div class="contact-image">
+                
+            </div>
+            <form method="POST" action="include/form_handler.php">
+                <h3 style="color:#259580">Reach us directly from here!</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number" value="" />
+                        </div>
+						 <div class="form-group">
+                            <input type="text" name="owner" class="form-control" placeholder="Are you home owner?" value="" />
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-6">
+					 <div class="form-group">
+                            <input type="text" name="since" class="form-control" placeholder="You own this property since?" value="" />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+						 <div class="form-group">
+                            <input type="submit" name="contact" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+
+
+
+
+</div> 
+
+
+
+
+
+
+
+						 <!-- construction ends here -->
+
+
+
+
+
+
+
+
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+        	<div class="col-lg-8 py-4">
+        		<div class="row">
+		          <div class="col-md-6 ftco-animate d-flex align-items-center">
+		            <h2 class="mb-0" style="color:white; font-size: 24px;">Subcribe to our Newsletter</h2>
+		          </div>
+		          <div class="col-md-6 d-flex align-items-center">
+		            <form action="#" class="subscribe-form">
+		              <div class="form-group d-flex">
+		                <input type="text" class="form-control" placeholder="Enter email address">
+		                <input type="submit" value="Subscribe" class="submit px-3">
+		              </div>
+		            </form>
+		          </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="logo"><a href="#">PREMIO<span>SOLAR</span></a></h2>
+				<p>Premio solar helps you to get freedom and control over electricity. Your home is powered by rooftop solar panels during the day and by energy stored in the battery at night with a residential solar system.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				  <li class="ftco-animate"><a href="https://twitter.com/premiosolar"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="https://facebook.com/premiosolar"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://instagram.com/premiosolar"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4 ml-md-5">
+				<h2 class="ftco-heading-2">Important links</h2>
+				<ul class="list-unstyled">
+				  <li><a href="index.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home</a></li>
+				  <li><a href="howitwork.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>How It Works</a></li>
+				  <li><a href="about.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About Us</a></li>
+				  <li><a href="community.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Residential Solar</a></li>
+				  <li><a href="comercial.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Comercial Solar</a></li>
+				  
+				  <li><a href="contact.php" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact Us</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">Contact information</h2>
+				  <div class="block-23 mb-3">
+					<ul>
+					  <li><span class="icon icon-map-marker"></span><span class="text">N 7th Ave, Phoenix, AZ 85007, United States</span></li>
+					  <li><a href="#"><span class="icon icon-phone"></span><span class="text">702 8794443</span></a></li>
+					  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@premiosolar.com</span></a></li>
+					</ul>
+				  </div>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Business Hours</h2>
+				<div class="opening-hours">
+					<h4>Opening Days:</h4>
+					<p class="pl-3">
+						<span>Monday – Friday : 9am to 20 pm</span>
+						<span>Saturday : 9am to 17 pm</span>
+					</p>
+					<h4>Vacations:</h4>
+					<p class="pl-3">
+						<span>All Sunday Days</span>
+						<span>All Official Holidays</span>
+					</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+			  </p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+    
+  </body>
+</html>

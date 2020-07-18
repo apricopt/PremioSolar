@@ -1,0 +1,2 @@
+[03-Apr-2020 00:04:37 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'apricopt'@'localhost' (using password: YES) in /home/apriakoz/premiosolar.com/include/connection.php on line 9
+[03-Apr-2020 00:04:37 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/apriakoz/premiosolar.com/include/form_handler.php on line 28
